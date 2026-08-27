@@ -55,14 +55,17 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ====== Navbar Section Style End ====== */
 
-/* ====== Navbar Section Style Start ====== */
+/* ====== Banner Section Style Start ====== */
 #banner{
-    padding: 200px 0;
+    padding: 225px 0;
     height: 100vh;
     background: url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner_Content{
+    margin-left: 76px;
 }
 .banner_Content h1{
     width: 422px;
@@ -72,6 +75,9 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 55px;
     letter-spacing: 5%;
     color: #000000;
+}
+.banner_Content h1 span{
+    display: block;
 }
 .banner_Content p{
     width: 396px;
@@ -89,7 +95,62 @@ h1,h2,h3,h4,h5,h6,p{
     align-items: center;
     gap: 13px;
 }
-/* ====== Navbar Section Style End ====== */
+/* ====== Banner Section Style End ====== */
+
+/* ====== Services Section Style Start ====== */
+.services_title h3{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 52.5px;
+    position: relative;
+}
+.services_title h3::after{
+    position: absolute;
+    content: "";
+    bottom: -13px;
+    left: 0;
+    width: 117px;
+    height: 4px;
+    background: #3A8DA8;
+}
+.services_card_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services_card{
+    width: 200px;
+    height: 225px;
+    border: 1px solid #98F2E1;
+    border-radius: 25px;
+    padding: 53px 21px 37px 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(to bottom, rgb(249, 255, 254), rgba(255, 255, 255, 0));
+    transition: all linear 0.3s;
+}
+.services_card img{
+    object-fit: cover;
+    margin-bottom: 16.5px;
+}
+.services_card p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    display: block;
+}
+.services_card:hover{
+    border: 1px solid #FFEE94;
+    background: linear-gradient(to bottom, #FFFAE0, rgba(255, 255, 255, 0));
+}
+/* ====== Services Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Pangolin", cursive; */
 /* font-family: "Rubik", sans-serif; */
