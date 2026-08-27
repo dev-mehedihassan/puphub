@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6,p{
     align-items: center;
     gap: 14px;
 }
-.nav_actions .btn{
+.btn{
     padding: 20px 44px;
     background: #124C5F;
     border: none;
@@ -49,9 +49,45 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 
-.nav_actions .btn:hover{
+.btn:hover{
     background: #C7E7E1;
     color: #124C5F;
+}
+/* ====== Navbar Section Style End ====== */
+
+/* ====== Navbar Section Style Start ====== */
+#banner{
+    padding: 200px 0;
+    height: 100vh;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_Content h1{
+    width: 422px;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: 5%;
+    color: #000000;
+}
+.banner_Content p{
+    width: 396px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    letter-spacing: 5%;
+    color: #000000;
+    margin-top: 36px;
+    margin-bottom: 49px;
+}
+.banner_Content .btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
 }
 /* ====== Navbar Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
