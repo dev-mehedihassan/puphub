@@ -13,3 +13,47 @@ a, a:hover{
 h1,h2,h3,h4,h5,h6,p{
     line-height: 1.4;
 }
+/* ====== Navbar Section Style Start ====== */
+.navbar{
+    padding: 20px 0;
+}
+.navbar-nav{
+    gap: 57px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all linear 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #124C5F;
+}
+.nav_actions{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.nav_actions .btn{
+    padding: 20px 44px;
+    background: #124C5F;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all linear 0.3s;
+}
+
+.nav_actions .btn:hover{
+    background: #C7E7E1;
+    color: #124C5F;
+}
+/* ====== Navbar Section Style End ====== */
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Pangolin", cursive; */
+/* font-family: "Rubik", sans-serif; */
