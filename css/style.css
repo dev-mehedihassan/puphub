@@ -272,6 +272,31 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
 }
 /* ====== Products Section Style End ====== */
+
+/* ====== Explore Section Style Strat ====== */
+#explore{
+    background: linear-gradient(to bottom, #F6FFFD, rgba(251, 251, 251, 0));
+}
+.explore_Content h3{
+    width: 490px;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    color: #000000;
+}
+.explore_Content p{
+    width: 533px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.38;
+    letter-spacing: 5%;
+    color: #4E4C46;
+    margin-top: 34px;
+    margin-bottom: 55px;
+}
+/* ====== Explore Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Pangolin", cursive; */
 /* font-family: "Rubik", sans-serif; */
