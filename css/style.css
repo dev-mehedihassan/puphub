@@ -46,6 +46,9 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 24px;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: inline-flex !important;
+    align-items: center;
+    column-gap: 10px;
     transition: all linear 0.3s;
 }
 
@@ -157,7 +160,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ====== About Section Style Start ====== */
 #about{
-    padding: 40px 0;
+    padding: 80px 0;
 }
 .about_Content{
     margin-top: 41px;
@@ -186,12 +189,89 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .about_Content img{
     position: absolute;
-    top: -90px;
+    top: -120px;
     right: 0;
     width: 93px;
     height: 92px;
 }
 /* ====== About Section Style End ====== */
+
+/* ====== Products Section Style Start ====== */
+#products{
+    padding: 60px 0;
+}
+.products_title .subtitle{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    position: relative;
+}
+.products_title .subtitle::after{
+    position: absolute;
+    content: "";
+    bottom: -13px;
+    left: 0;
+    width: 117px;
+    height: 4px;
+    background: #3A8DA8;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+}
+.offer h3{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+}
+.offer h3 span{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.product_content{
+    padding: 20px 30px;
+}
+.product_content h4{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+.product_content p{
+    width: 280px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #979697;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.product_content .buy{
+    padding: 10px 46px 16px;
+    background: transparent;
+    border: 2px solid #124C5F;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #124C5F;
+    transition: all linear 0.3s;
+}
+.product_content .buy:hover{
+    border: 2px solid transparent;
+    background: #124C5F;
+    color: #FFFFFF;
+}
+/* ====== Products Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Pangolin", cursive; */
 /* font-family: "Rubik", sans-serif; */
