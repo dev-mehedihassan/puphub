@@ -297,6 +297,84 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 55px;
 }
 /* ====== Explore Section Style End ====== */
+
+/* ====== Customer Section Style Start ====== */
+#customer{
+    padding: 45px 0;
+}
+.customer_title h3{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 60px;
+    position: relative;
+}
+.customer_title h3::after{
+    position: absolute;
+    content: "";
+    bottom: -13px;
+    left: 0;
+    width: 117px;
+    height: 4px;
+    background: #3A8DA8;
+}
+.customer_card{
+    width: 360px;
+    height: 458px;
+    border-radius: 33px 33px 0 0;
+    position: relative;
+}
+.customer_card :nth-child(n){
+    background: #FFF1A6;
+}
+
+.card_content{
+    padding: 19px 42px 35px 53px;
+    background: #124C5F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 143px;
+}
+.card_content h4{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #DDCA69;
+    text-align: center;
+}
+.card_content p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.bone_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.bone_wrapper i{
+    color: #DDCA69;
+    font-size: 22px;
+}
+.bone_wrapper span{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+/* ====== Customer Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Pangolin", cursive; */
 /* font-family: "Rubik", sans-serif; */
