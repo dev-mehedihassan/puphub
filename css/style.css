@@ -162,6 +162,7 @@ h1,h2,h3,h4,h5,h6,p{
 .about_Content{
     margin-top: 41px;
     margin-left: 130px;
+    position: relative;
 }
 .about_Content h4{
     width: 511px;
@@ -182,6 +183,13 @@ h1,h2,h3,h4,h5,h6,p{
     color: #4E4C46;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+.about_Content img{
+    position: absolute;
+    top: -90px;
+    right: 0;
+    width: 93px;
+    height: 92px;
 }
 /* ====== About Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
