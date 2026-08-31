@@ -403,6 +403,57 @@ h1,h2,h3,h4,h5,h6,p{
     color: #FFFFFF;
 }
 /* ====== Customer Section Style End ====== */
+
+/* ====== Footer Section Style Start ====== */
+#footer{
+    padding-top: 85px;
+    padding-bottom: 55px;
+    background: #F6FAF9;
+}
+.newsletter h3{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 5%;
+    color: #000000;
+    margin-bottom: 67px;
+}
+.newsletter_form{
+    position: relative;
+}
+.newsletter_form input{
+    width: 751px;
+    height: 118px;
+    background: #FFFFFF;
+    border: none;
+    padding: 46px 38px;
+    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, 0.05);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.38;
+    letter-spacing: 5%;
+    color: #000000;
+}
+.newsletter_form input::placeholder{
+    color: #414141;
+}
+.newsletter_form button{
+    position: absolute;
+    top: 50%;
+    right: 133px;
+    transform: translateY(-50%);
+}
+.newsletter_form i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #414141;
+    font-size: 20px;
+}
+/* ====== Footer Section Style End ====== */
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Pangolin", cursive; */
 /* font-family: "Rubik", sans-serif; */
