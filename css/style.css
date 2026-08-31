@@ -301,6 +301,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ====== Customer Section Style Start ====== */
 #customer{
     padding: 45px 0;
+    background: linear-gradient(to bottom, #FFFFF6, rgba(251, 251, 251, 0));
 }
 .customer_title h3{
     font-family: "Pangolin", cursive;
@@ -322,12 +323,38 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .customer_card{
     width: 360px;
-    height: 458px;
+    height: 460px;
     border-radius: 33px 33px 0 0;
+    margin-bottom: 85px;
     position: relative;
+    z-index: 9;
+    overflow: hidden;
 }
-.customer_card :nth-child(n){
+
+.card_image1{
+    width: 100%;
+    height: 100%;
     background: #FFF1A6;
+}
+.card_image2{
+    width: 100%;
+    height: 100%;
+    background: #EBA8BF;
+}
+.card_image3{
+    width: 100%;
+    height: 100%;
+    background: #DDC7ED;
+}
+
+.customer_card .card_image img{
+    width: 323px;
+    height: 335px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .card_content{
@@ -336,6 +363,7 @@ h1,h2,h3,h4,h5,h6,p{
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 999;
     width: 100%;
     height: 143px;
 }
